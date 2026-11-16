@@ -11,7 +11,7 @@
 <p align="center"><b>Default apps for every file type and link — a Mac app (Apple silicon)</b></p>
 
 <p align="center">
-  Version <b>0.1.2</b> · released 16 Nov 2026 ·
+  Version <b>0.1.3</b> · released 16 Nov 2026 ·
   <a href="https://github.com/JKS-sys/Deft-23-sep-2026-releases/releases/latest">Download</a> ·
   <a href="https://ipconfig.co.network/deft">Website</a> ·
   <a href="RELEASE-NOTES.md">Release notes</a>
@@ -43,7 +43,7 @@ macOS itself, so Deft never has to keep running — no menu bar icon, nothing in
 
 ## Install
 
-Download `Deft_0.1.2_aarch64.dmg` from the
+Download `Deft_0.1.3_aarch64.dmg` from the
 [latest release](https://github.com/JKS-sys/Deft-23-sep-2026-releases/releases/latest), open it and drag Deft to
 Applications. Or in Terminal:
 
