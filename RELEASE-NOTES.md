@@ -2,24 +2,20 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/Deft-23-sep-2026-releases/releases/latest · https://ipconfig.co.network/deft
 
-## Deft 0.1.1 — 08 Nov 2026
+## Deft 0.1.2 — 16 Nov 2026
 
-- One-command release: `bash update.sh` (keys from the dashboard vault) builds, signs, writes the notes and publishes to GitHub and R2; `npm run build:mac:arm64` makes a local app and DMG.
+- Gatekeeper: a new page (⌘7) for “app can’t be opened”, “is damaged” and “cannot verify the developer”. Choose or drop an app to see whether it opens, its signature and its quarantine flag, then Allow it, Self-sign it, or both — with the exact commands in a log. Turn Gatekeeper off and back on; opens Privacy & Security when macOS 15 needs the last click; installs the Command Line Tools.
 
-- By App: pick any app and make it the default for everything it opens — or one category of it — in one go.
-- Health: finds defaults whose app is gone or in the Trash, types with no default, siblings that disagree (.jpg and .jpeg, http and https) and apps installed twice, with Fix all.
-- Activity with Undo: every change remembers what it replaced, shown as a coloured log box; Undo puts back exactly that.
-- Your Choices: every default this Mac's user has set, read straight from Launch Services.
-- Try it: opens a real sample file (PNG, PDF, SVG, Markdown…) so you see the new default app at once.
-- Drop any file on the window to see and change what opens it.
-- 19 categories and over 350 types: RAW photos, subtitles, eBooks, web development, shell scripts, databases, fonts, disk images, design and 3D, Apple developer files — plus any type you add yourself.
-- Six list layouts, four window layouts, compact density, a command palette (⌘K) and right-click menus on every row.
-- Every action has its own sound and its own self-drawing animation; Motion Off / Subtle / Lively and ten sound packs.
-- More colour everywhere — every category, page, kind and status has its own hue, numbers, brackets and extensions are coloured, and there is no pink anywhere.
-- Deft Pro through your ipconfig account (sign in with a password or an emailed code): profiles, import and restore. ₹20 a month or ₹220 a year.
-- Crash reports: a problem is written down and Deft asks at the next start whether to send it; nothing leaves without a yes.
-- Owner Panel on the owner's Mac: make codes, revoke, extend, email them; subscriptions, crashes, installs and computers with bulk actions and export.
-- Updates check the public GitHub release first, then its mirror, then ipconfig.co.network.
+- Overview: a new first page — a donut of which apps open the most types, how covered each category is, a health score ring and your changes over the last 14 days.
+- Changed while Deft was closed: Deft never runs in the background, so at each start it shows every default that something else moved since your last visit, with Put back, Keep, Put all back and Keep all.
+- Quick defaults: web browser, email, PDF, images, video, music, plain text and archives — one picker each, right on Overview.
+- No more permission questions: Deft no longer reads apps kept in Desktop, Documents, Downloads, iCloud or on other disks, so macOS has nothing to ask about; the installer script now leaves Deft owned by you, so updates never ask for the administrator password.
+- Log boxes: a drawn icon on every line that draws itself, a coloured share strip (steps, done, warnings, problems), a moving status glyph, count chips that filter the lines, click any line to copy it, and a different sound and animation for a log that ended well, with warnings or with problems.
+- Nothing overlaps however small the window gets — checked automatically on every page at five sizes from 1180×780 down to 380×300, in both themes.
+- Faster start: only File Types loads with the window; every other page and dialog is its own small file, warmed up while the window is idle (the first file is a third of its old size).
+- More colour for quick reading: prices, version numbers, folders, app identifiers, web addresses and words like “healthy”, “gone” and “put back” each have their own colour — and still no pink.
+- 13 new sounds, each with its own self-drawing animation: Overview, Put back, Keep, drift notice, world map, country, analytics, three log endings, log filter, copy a line, quick defaults.
+- Owner Panel → Analytics: a dot world map with a pulsing bubble per country, top countries, last seen over 30 days, new installs, macOS and Deft versions, Free and Pro, monthly and yearly income from subscriptions, codes and open crashes by version. Click a country to filter Installs.
 
 ### Install
 
